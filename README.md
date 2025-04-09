@@ -87,6 +87,29 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 - Contribuidores
 - Comunidad de motociclistas
 
+## 🚀 Despliegue en Vercel
+
+1. **Preparación del Proyecto**:
+   - Asegúrate de tener el archivo `vercel.json` en la raíz del proyecto
+   - Confirma que el `vite.config.js` está correctamente configurado
+
+2. **Despliegue Automático**:
+   - Conecta tu repositorio con Vercel
+   - Vercel detectará automáticamente que es un proyecto Vite
+   - La configuración de build se tomará del `vercel.json`
+
+3. **Configuración de Variables de Entorno** (si es necesario):
+   - Añade las variables de entorno necesarias en la configuración del proyecto en Vercel
+   - Asegúrate de que coincidan con las variables locales
+
+4. **Dominios y HTTPS**:
+   - Vercel proporciona automáticamente HTTPS
+   - Puedes configurar un dominio personalizado desde el dashboard de Vercel
+
+5. **Monitoreo**:
+   - Utiliza el dashboard de Vercel para monitorear el rendimiento
+   - Revisa los logs de build y deployment
+
 ---
 
 Desarrollado con ❤️ para la comunidad de motociclistas
